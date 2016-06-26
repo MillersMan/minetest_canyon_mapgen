@@ -34,6 +34,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #include "log.h"
 #include "map.h"
 #include "mapblock.h"
+#include "mapgen_canyon.h"
 #include "mapgen_flat.h"
 #include "mapgen_fractal.h"
 #include "mapgen_v5.h"
@@ -107,6 +108,7 @@ MapgenDesc g_reg_mapgens[] = {
 	{"v5",         new MapgenFactoryV5,         true},
 	{"v6",         new MapgenFactoryV6,         true},
 	{"v7",         new MapgenFactoryV7,         true},
+	{"canyon",     new MapgenFactoryCanyon,     true},
 	{"flat",       new MapgenFactoryFlat,       true},
 	{"fractal",    new MapgenFactoryFractal,    true},
 	{"valleys",    new MapgenFactoryValleys,    true},

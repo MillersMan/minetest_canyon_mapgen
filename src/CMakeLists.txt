@@ -413,6 +413,7 @@ set(common_SRCS
 	map.cpp
 	mapblock.cpp
 	mapgen.cpp
+	mapgen_canyon.cpp
 	mapgen_flat.cpp
 	mapgen_fractal.cpp
 	mapgen_singlenode.cpp
